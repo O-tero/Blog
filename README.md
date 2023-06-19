@@ -41,3 +41,18 @@ Start dev server.
 ```bash
 python manage.py runserver
 ```
+
+For the frontend, install packages.
+
+```bash
+cd frontend
+npm install
+```
+
+If you are getting errors when installing packages, just run `npm install --force`. Some packages has been deprecated, but everything still work for now. I will try to update this project as soon as possible.
+
+Start frontend dev server.
+
+```bash
+npm run serve
+```
